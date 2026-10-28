@@ -1,0 +1,41 @@
+QUANTPILOT - ANALYTICAL REPORT
+Generated: 28 Oct 2026, 16:11
+Note: Historical analysis and model predictions do not guarantee future market performance.
+
+1. DATA SUMMARY
+------------------------------------------------------------
+ALPHA    01 Oct 2024 to 30 Sep 2026   522 trading days   last close 153.12
+BRAVO    01 Oct 2024 to 30 Sep 2026   522 trading days   last close 103.72
+CHARLIE  01 Oct 2024 to 30 Sep 2026   522 trading days   last close 488.92
+DELTA    01 Oct 2024 to 30 Sep 2026   522 trading days   last close 49.78
+
+2. RISK AND RETURN
+------------------------------------------------------------
+         Total Return %  Annual Return %  Annual Volatility %  Sharpe Ratio  Max Drawdown %  VaR 95% (1-day) %
+ALPHA              0.24             2.36                21.19         -0.12          -26.87               2.29
+BRAVO             29.39            16.74                29.25          0.40          -48.44               2.77
+CHARLIE           51.77            21.64                17.07          0.97          -19.67               1.66
+DELTA              8.60            11.07                37.63          0.16          -38.40               3.83
+(Sharpe ratio uses an assumed risk-free rate of 5% a year.)
+
+3. OBSERVATIONS
+------------------------------------------------------------
+- Highest total return: CHARLIE (51.77%)
+- Lowest total return: ALPHA (0.24%)
+- Most volatile: DELTA (37.63% a year)
+- Least volatile: CHARLIE (17.07% a year)
+- Best Sharpe ratio: CHARLIE (0.97)
+- Deepest drawdown: BRAVO (-48.44%)
+- Most correlated pair: CHARLIE and DELTA (0.10)
+
+4. FORECAST EVALUATION FOR ALPHA
+------------------------------------------------------------
+Model: Linear Regression, next-day close. Training rows 401, test rows 101.
+Test period: 12 May 2026 to 29 Sep 2026
+MAE 1.35 | RMSE 1.79 | MAPE 0.93% | R2 0.918
+Baseline (tomorrow = today): MAE 1.31 | RMSE 1.77
+Direction predicted correctly on 47.5% of test days.
+On this test the model does not beat the baseline.
+Model estimate for the next trading day: 152.82 (-0.20% from the last close).
+
+Historical analysis and model predictions do not guarantee future market performance.
